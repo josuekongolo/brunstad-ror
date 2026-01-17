@@ -1,0 +1,23 @@
+# Robots.txt for Brunstad Rør Service AS
+# https://brunstadror.no
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://brunstadror.no/sitemap.xml
+
+# Crawl-delay (optional, for polite crawling)
+Crawl-delay: 1
+
+# Block access to any admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+
+# Allow all images
+Allow: /images/
+
+# Allow CSS and JS for rendering
+Allow: /css/
+Allow: /js/
